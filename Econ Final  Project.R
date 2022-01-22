@@ -1,5 +1,9 @@
-################################################################################################
+##########################################################################################################################################
 # Project: Forecasting Average Regular Unleaded Gas 
+# Using the data obtained we will forecast the average price of gasoline for six upcoming periods
+# Traders can use the forecast information to determine how much to bid on future contrancts on gas delivery for the next few months.
+
+#### Describing the data ####
 # We will be examining data obtained from the Federal Reserve Economic Data
 # The data contains the average price of gasoline, unleaded regular (cost per gallon) in the US.
 # The data set contains monthly observations from January 1976 to October 2021.
@@ -7,7 +11,7 @@
 # https://fred.stlouisfed.org/series/APU000074714
 # Holdout period (Training data)
 # January 1990 through May 2021, we excluded the last four observations of our data
-#################################################################################################
+##########################################################################################################################################
 
 library(fpp3)
 library(tidyverse)
