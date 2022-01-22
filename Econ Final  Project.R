@@ -1,6 +1,13 @@
-######################################################################
+################################################################################################
 # Project: Forecasting Average Regular Unleaded Gas 
-#######################################################################
+# We will be examining data obtained from the Federal Reserve Economic Data
+# The data contains the average price of gasoline, unleaded regular (cost per gallon) in the US.
+# The data set contains monthly observations from January 1976 to October 2021.
+# The data obtained has NOT been seasonally adjusted.
+# https://fred.stlouisfed.org/series/APU000074714
+# Holdout period (Training data)
+# January 1990 through May 2021, we excluded the last four observations of our data
+#################################################################################################
 
 library(fpp3)
 library(tidyverse)
@@ -403,27 +410,3 @@ View(compare)
 #   for gas delivery since gas prices will be decreasing. 
 # The forecast is well within the 95% confidence bands and investors can have confidence in 
 #   purchasing more gas since the forecast appears to be fairly accurate.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
