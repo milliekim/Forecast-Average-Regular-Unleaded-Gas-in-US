@@ -302,7 +302,8 @@ residuals(ARIMAgas3) %>% gg_tsdisplay(.resid, plot_type="partial", lag_max=60)
 
 # Forecasting the ARIMA with Exogenous variables:
 
-# STEP 4: Box-Jenkins Methodology
+
+######## STEP 4: Box-Jenkins Methodology ##############################################
 
 # Confirm preliminary final model passes diagnosic test: Ljung-Box test
 
